@@ -66,11 +66,6 @@ main {
   margin: auto;
 }
 
-.circle:hover {
-  cursor: pointer;
-  box-shadow: 0 1px 30px hsl(150, 100%, 66%);
-}
-
 .circle img {
   position: absolute;
   left: 0;
@@ -78,6 +73,13 @@ main {
   bottom: 0;
   top: 0;
   margin: auto;
+}
+
+@media (hover: hover) {
+  .circle:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 30px hsl(150, 100%, 66%);
+  }
 }
 
 @media (min-width: 570px) {
