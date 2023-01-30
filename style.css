@@ -5,3 +5,72 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+* {
+  font-family: 'Manrope', sans-serif;
+}
+
+html {
+  background-color: hsl(218, 23%, 16%);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+  padding: 2rem 1.5rem 3.5rem;
+  max-width: 600px;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 0.5rem;
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.quote-number {
+  color: hsl(150, 100%, 66%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 0.75rem;
+  padding-bottom: 2rem;
+  opacity: 0.8;
+}
+
+.quote {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.5rem;
+  line-height: 32px;
+  padding-bottom: 1.5rem;
+}
+
+.circle {
+  position: absolute;
+  width: 3.75rem;
+  height: 3.75rem;
+  border-radius: 50%;
+  background-color: hsl(150, 100%, 66%);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 100%;
+  margin: auto;
+}
+
+.circle img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+}
