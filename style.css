@@ -75,6 +75,13 @@ main {
   margin: auto;
 }
 
+@media (hover: hover) {
+  .circle:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 30px hsl(150, 100%, 66%);
+  }
+}
+
 @media (min-width: 570px) {
   .content {
     padding: 2.5rem 4rem 3.5rem;
