@@ -74,3 +74,20 @@ main {
   top: 0;
   margin: auto;
 }
+
+@media (min-width: 570px) {
+  .content {
+    padding: 2.5rem 4rem 3.5rem;
+    border-radius: 1rem;
+  }
+
+  .quote-number {
+    font-size: 1rem;
+  }
+
+  .quote {
+    font-size: 1.75rem;
+    line-height: 45px;
+    padding-bottom: 2rem;
+  }
+}
